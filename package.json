@@ -8,5 +8,13 @@
   },
   "scripts": {
     "build": "echo 'No build required'"
+  },
+  "files": [
+    "babel.config.js",
+    "utils/*"
+  ],
+  "dependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5"
   }
 }
