@@ -30,9 +30,6 @@ module.exports = {
         test: {
             presets: [
                 createPresetEnv('commonjs')
-            ],
-            plugins: [
-                // '@babel/plugin-transform-modules-commonjs'
             ]
         }
     }
