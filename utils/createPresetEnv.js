@@ -4,9 +4,9 @@ const createPresetEnv = (modules) => ([
         modules,
         targets: {
             node: 'current' // TODO concerned this may cause problems
-        }
-        // useBuiltIns: 'entry',
-        // corejs: 3
+        },
+        useBuiltIns: 'entry',
+        corejs: 3
     }
 ]);
 
