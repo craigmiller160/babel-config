@@ -4,7 +4,7 @@ const languageExtensions = require('./utils/languageExtensions');
 
 module.exports = {
     plugins: [
-        // ...languageExtensions,
+        ...languageExtensions,
         // [
         //     '@babel/plugin-transform-runtime',
         //     {
