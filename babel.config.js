@@ -11,10 +11,10 @@ module.exports = {
         //         corejs: 3
         //     }
         // ],
-        // [
-        //     'babel-plugin-transform-imports',
-        //     transformImports
-        // ]
+        [
+            'babel-plugin-transform-imports',
+            transformImports
+        ]
     ],
     env: {
         development: {
