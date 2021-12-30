@@ -2,8 +2,11 @@ const createPresetEnv = (modules) => ([
     '@babel/preset-env',
     {
         modules,
-        useBuiltIns: 'entry',
-        corejs: 3
+        targets: {
+            node: 'current' // TODO concerned this may cause problems
+        }
+        // useBuiltIns: 'entry',
+        // corejs: 3
     }
 ]);
 

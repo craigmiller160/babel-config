@@ -4,17 +4,17 @@ const languageExtensions = require('./utils/languageExtensions');
 
 module.exports = {
     plugins: [
-        ...languageExtensions,
-        [
-            '@babel/plugin-transform-runtime',
-            {
-                corejs: 3
-            }
-        ],
-        [
-            'babel-plugin-transform-imports',
-            transformImports
-        ]
+        // ...languageExtensions,
+        // [
+        //     '@babel/plugin-transform-runtime',
+        //     {
+        //         corejs: 3
+        //     }
+        // ],
+        // [
+        //     'babel-plugin-transform-imports',
+        //     transformImports
+        // ]
     ],
     env: {
         development: {
@@ -32,7 +32,7 @@ module.exports = {
                 createPresetEnv('commonjs')
             ],
             plugins: [
-                '@babel/plugin-transform-modules-commonjs'
+                // '@babel/plugin-transform-modules-commonjs'
             ]
         }
     }
