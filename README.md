@@ -1,4 +1,4 @@
-# jest-config
+# babel-config
 
 A standard Babel configuration for JavaScript projects.
 
