@@ -1,6 +1,5 @@
 const createPresetEnv = require('./utils/createPresetEnv');
 const transformImports = require('./utils/transformImports');
-const languageExtensions = require('./utils/languageExtensions');
 
 module.exports = {
     ignore: [
@@ -8,7 +7,6 @@ module.exports = {
         /@babel\/runtime/
     ],
     plugins: [
-        ...languageExtensions,
         [
             '@babel/plugin-transform-runtime',
             {
