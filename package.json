@@ -1,6 +1,6 @@
 {
   "name": "@craigmiller160/babel-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "babel.config.js",
   "author": "craigmiller160",
   "publishConfig": {
